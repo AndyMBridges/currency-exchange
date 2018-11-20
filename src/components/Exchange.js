@@ -24,7 +24,8 @@ const Country = styled.div`
 
 type TestProps = {
     rates: {},
-    currencies: {string: string}
+    currencies: {string: string},
+    ratesLoading: boolean
 }
 
 type TestState = {
